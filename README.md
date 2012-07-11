@@ -7,9 +7,11 @@ Out of the box, it will work with the regular Konami Code sequence.
 
 If you miss a key, or if you press ESC key at any time, the sequence will reset.
 
-0.1 : initial release
-0.2 : added custom sequence
-0.3 : added support for shift+key, control+key, alt+key in the sequence, ESC key resets the sequence
+* 0.1 : initial release
+
+* 0.2 : added custom sequence
+
+* 0.3 : added support for shift+key, control+key, alt+key in the sequence, ESC key resets the sequence
 
 Tested with Mootools-Core 1.4.5
 
