@@ -12,7 +12,7 @@ Tested with Mootools-Core 1.4.5
 How to use
 ----------
 
-Include mootools-core, than include moo-KCode.js in your document <head>
+Include mootools-core, than include moo-KCode.js in your document HEAD
 
 moo-KCore.js accepts three arguments as options:
 
