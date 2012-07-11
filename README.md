@@ -26,11 +26,11 @@ Include mootools-core, than include moo-KCode.js in your document HEAD
 
 moo-KCore.js accepts three arguments as options:
 
-timer: the amount of time (in ms) to wait for a new key strocke before we reset the sequence, default to 500
+* timer: the amount of time (in ms) to wait for a new key strocke before we reset the sequence, default to 500
 
-sequence: an array composed of keyboard keys - to use a SHIFTed key, simply prefix the key with "s+" (see examples below)
+* sequence: an array composed of keyboard keys - to use a SHIFTed key, simply prefix the key with "s+" (see examples below)
 
-onComplete: a callback function to run when the sequence is complete
+* onComplete: a callback function to run when the sequence is complete
 
 	window.addEvent('domready', function() {
 		// Use the default Konami Code sequence ..
