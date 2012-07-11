@@ -3,7 +3,9 @@ moo-KCode
 
 This is my humble implementation of the Konami Code for Mootools.
 
-Out of the box, it will work with the regular Konami Code sequence.
+It attaches an event that waits for key presses matching a given key sequence.
+
+Out of the box, it will work with the regular Konami Code, but you can specify your own sequence.
 
 If you miss a key, or if you press ESC key at any time, the sequence will reset.
 
