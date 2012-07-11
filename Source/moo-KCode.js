@@ -12,6 +12,8 @@ requires:
 
 provides: [KCode]
 
+version: 0.2
+
 ...
 */
 
@@ -19,15 +21,17 @@ var KCode = new Class({
 	Implements: [Options, Events],
 	options: {
 		delay: 500,
+		sequence: ['up','up','down','down','left','right','left','right','b','a','enter'],
 		onComplete: function() {}
 	},
-	_sequence: ['up','up','down','down','left','right','left','right','b','a','enter'],
-	_queue: [],
+	_sequence: false,
+	_queue: false,
 	_timer: false,
 	initialize: function(options) {
 		this.setOptions(options);
+		this._sequence = this.options.sequence;
 		this.resetSequence();
-		window.addEvent('keydown', this.keyEvents.bind(this));	
+		window.addEvent('keydown', this.keyEvents.bind(this));
 	},
 	resetSequence: function() {
 		this._queue = Array.clone(this._sequence);
@@ -41,7 +45,6 @@ var KCode = new Class({
 			this.resetTimer();
 			this._queue.shift();
 			if (!this._queue || this._queue.length == 0) {
-				this.resetSequence();
 				this.fireEvent('complete');
 			}
 		} else
