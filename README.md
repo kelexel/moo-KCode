@@ -32,6 +32,8 @@ moo-KCore.js accepts three arguments as options:
 
 * onComplete: a callback function to run when the sequence is complete
 
+Here are three examples:
+
 	window.addEvent('domready', function() {
 		// Use the default Konami Code sequence ..
 		var test1 = new KCode();
