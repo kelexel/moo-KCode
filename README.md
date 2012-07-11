@@ -5,7 +5,7 @@ This is my humble implementation of the Konami Code for Mootools.
 
 Tested with Mootools-Core 1.4.5
 
-[Demo](https://tinker.io/841dc/2)
+[Demo](https://tinker.io/ac619)
 
 How to use
 ----------
