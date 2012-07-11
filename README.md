@@ -22,3 +22,8 @@ Just add a callback method to the onComplete event:
 			});
 		});
 	</script>
+
+Screenshots
+-----------
+
+![Screenshot 1](https://raw.github.com/kelexel/moo-KCode/master/moo-KCode.png)
