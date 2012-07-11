@@ -12,8 +12,6 @@ requires:
 
 provides: [KCode]
 
-version: 0.2
-
 ...
 */
 
