@@ -3,6 +3,8 @@ moo-KCode
 
 This is my humble implementation of the Konami Code for Mootools.
 
+Out of the box, it will work with the regular Konami Code sequence, but you can now specify your own.
+
 Tested with Mootools-Core 1.4.5
 
 [Demo](https://tinker.io/ac619)
@@ -19,6 +21,7 @@ Include mootools-core, than include moo-KCode.js in your document <head>
 			sequence: an array composed of keyboard keys (except "shift")
 			onComplete: a callback function to run when the sequence is complete
 	*/
+
 	window.addEvent('domready', function() {
 		// Use the default Konami Code sequence ..
 		var foo = new KCode();
