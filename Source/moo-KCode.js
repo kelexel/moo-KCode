@@ -2,16 +2,17 @@
 ---
 description: Mootools Konami Code.
 
-license: MIT-style
+license: GPL
 
 authors:
 - Rudolph Sand
 
 requires: 
-  core/1.4.5: '*'
+- core/1.4.5
 
 provides: [KCode]
 
+...
 */
 
 var KCode = new Class({
